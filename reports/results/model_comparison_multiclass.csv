@@ -1,0 +1,5 @@
+model_name,accuracy,precision,recall,f1_score,macro_f1,weighted_f1,false_positive_rate,false_negative_rate,roc_auc,training_time_sec,latency_ms_per_1k
+random_forest,0.4096,0.1031,0.1058,0.1012,0.1012,0.4514,,,0.5113,0.2003,0.0213
+gradient_boosting,0.6808,0.1039,0.098,0.0847,0.0847,0.5766,,,0.5067,51.8224,0.0142
+xgboost,0.7056,0.0706,0.1,0.0827,0.0827,0.5838,,,0.5219,1.5893,0.0033
+decision_tree,0.1584,0.099,0.0861,0.0642,0.0642,0.2212,,,0.4974,0.1536,0.0003
